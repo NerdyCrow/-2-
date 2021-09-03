@@ -1,0 +1,41 @@
+/* **********************UNIVERSITY*************************/
+
+MUSIC {
+    display: block;
+    margin: 50px 100px;
+    padding: 15px 15px;
+    border: 2px solid Red;
+    border-radius: 10px;
+    width: 300px;
+}
+
+JANR {
+    padding: 5px;
+    display: block;
+    text-align: center;
+    font-size: 15px;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+NAME {
+    border: 1px solid rgb(0, 221, 255);
+    text-align: center;
+    margin: 1px;
+    display: block;
+}
+
+POINTS {
+    display: block;
+    text-align: center;
+    margin: 1px;
+    border: 1px solid rgb(0, 221, 255);
+}
+
+COL {
+    display: block;
+    margin: 1px;
+    text-align: center;
+    border: 1px solid rgb(0, 221, 255);
+}

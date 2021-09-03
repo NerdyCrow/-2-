@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Моя первая страница</title>
+</head>
+<body  alink="Blue" vlink="Red">
+	<button onclick="task3()" style="width: 100%;font-size: 20px;border-radius: 5px">HEllO</button>
+	
+	<h1  align="center" style="color: #db0dd4" >Я,<a href="D:\Лабы ОИТ\Лаб №1\Lab №1,2.html">Слемнёв Виктор Николаевич</a> , изучаю <font color="blue">HTML</font> и CSS</h1>
+<h2 align="center" style="color:#0ddbce">База данных</h2>
+<h3 align="center" style="color:White">База данных</h3>
+
+	<p style="text-indent: 20px" ><font size="2" color="Red" face="Arial"  ><span style = "color:#9f05ff; font-size:20px;" id="sp1">База данных</span > -совокупность организованной информации, относящейся к определённой предметной области, предназначенная для длительного хранения во внешней памяти компьютера и постоянного применения.Следующее понятие, связанное с базой данных: программа для работы с базой данных – это программа, которая обеспечивает решение требуемого комплекса задач. Любая подобная программа должна уметь решать все задачи стандартного набора.</font></p>
+
+<h3 align="center" style="color:#0ddbce">Система управления базами данных</h3>
+	<p style="text-indent: 20px"><font size="3" color="#00e1ff" face="book antiqua"  > <span style = "color:#051eff; font-size:20px;">СУБД</span>-совокупность программных и лингвистических средств общего или специального назначения, обеспечивающих управление созданием и использованием баз данных. Главная функция СУБД – это управление данными (которые могут быть как во внешней, так и в оперативной памяти). СУБД обязательно поддерживает языки баз данных, а также отвечает за копирование и восстановление информации после каких-либо сбоев.</font></p>
+<h3 align="center" style="color:#0ddbce">Ключевое поле</h3>
+	<p style="text-indent: 20px"><font size="2.5" color="#fb00ff" face="Calibri"  ><span style="font-size:15px;color:#00ff2a">Ключевое поле</span> — это одно или несколько полей, комбинация значений которых однозначно определяет каждую запись в таблице. Если для таблицы определены ключевые поля, то Microsoft Access предотвращает дублирование или ввод пустых значений в ключевое поле. Ключевые поля используются для быстрого поиска и связи данных из разных таблиц при помощи запросов, форм и отчетов. В Microsoft Access можно выделить три типа ключевых полей: счетчик, простой ключ и составной ключ. Рассмотрим каждый из этих типов.
+		Для создания ключевого поля типа Счетчик необходимо в режиме Конструктора таблиц:1). Включить в таблицу поле счетчика.
+		2). Задать для него автоматическое увеличение на 1.
+		3). Указать это поле в качестве ключевого путем нажатия на кнопку Ключевое поле (Primary Key) на панели инструментов Конструктор таблиц (Table Design).<span class=""></span></font></p>
+		<h2 style="color:Red">Поит 6</h2>
+<ol>
+	<li>Первая подгруппа</li>
+		<ul type="square">
+			<li >Слемнёв Виктор</li>
+			<li >Кузмич Антон </li>
+		</ul>
+		<li>Вторая подгруппа</li>
+		<ul type="circle">
+			<li >Яскович Марк</li>
+			<li >Дикун Илья</li>
+
+		</ul></ol>
+		<table border="1px">
+			<tr>
+				<td>ФИО</td>
+				<td colspan="3"><a href="D:\Лабы ОИТ\Лаб №1\Lab №1,2.html">Слемнёв Виктор Николаевич</a></td>
+			</tr>
+			<tr> 
+				<td><img src="C:\Users\Victor\Desktop\baran.jpg" alt="Свое Фото" width="95" height="60"></td>
+				<td colspan="3">Адрес:ул.Белорусская,д.21,ком.711</td>
+			</tr>
+			<tr>
+				<td rowspan="5">1 семестр<br>2020/2021 уч.года</td>
+				<td>Дата</td>
+				<td>Предмет</td>
+				<td>Оценка</td>
+
+			</tr>
+			<tr>
+				
+				<td>31.12.2020</td>
+				<td>ОАиП</td>
+				<td class="mark">8</td>
+			</tr>
+			<tr>
+				
+				<td>5.01.2021</td>
+				<td>ОИТ</td>
+				<td  class="mark">8</td>
+			</tr>
+			<tr>
+				
+				<td>16.01.2021</td>
+				<td>Математика</td>
+				<td  class="mark">6</td>
+			</tr>
+
+
+		</table>
+
+
+
+
+		<script>
+		
+			let a=document.all.length;
+			for (var i = 0; i < a; i++) 
+			{
+				let tag=document.all(i).tagName;
+			   document.write(tag+" номер тега = "+i);
+			   document.write("</br>");
+			}
+
+			a=document.body.childNodes.length;
+			for (var i = 0; i < a; i++) 
+			{
+				let tag=document.body.childNodes[i];
+			   document.write("</br>");
+			   document.write(tag);
+			}
+
+			function task3()
+			{
+				let a=document.all.length;
+				for(let i = 0; i < a; i++) 
+				{
+					let sp=document.all[i];
+					if(sp.tagName=='SPAN') 
+					{
+						let content=sp.innerText;
+						alert('используя для доступа к элементу коллекцию all: ' + content);
+						break;
+					}
+				}
+
+				let b=document.getElementsByTagName("span")[0].innerText;
+				alert('используя частную коллекцию (span): '+b);
+
+				let sp=document.getElementById('sp1').innerText;
+				alert('используя идентификатор элемента: '+sp);
+			}
+
+			let average=0;
+		   for (let i = 0; i < 3; i++) 
+		   {
+		      average += Number(document.getElementsByClassName("mark")[i].innerText);
+		   }
+		   average /= 3;
+		   document.getElementsByTagName("span")[1].innerText+= " " + average.toFixed(2);
+		</script>
+		
+	</body>
+	</html>

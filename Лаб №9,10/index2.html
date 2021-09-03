@@ -1,0 +1,51 @@
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <style>
+        body {
+            background: grey;
+        }
+        
+        div {
+            filter: invert(100%);
+        }
+    </style>
+    <script>
+        var dx = 10,
+            dy = 10,
+            d = 1;
+        setInterval(function() {
+            var y = parseInt(document.all.imag.style.top);
+            var x = parseInt(document.all.imag.style.left);
+
+            document.all.imag.style.top = y + dy;
+            document.all.imag.style.left = x + dx;
+
+            xp = parseInt(document.all.imag.style.left);
+            yp = parseInt(document.all.imag.style.top);
+
+            if (xp > 1200) {
+                dx = -dx;
+            }
+            if (xp < 0) {
+                dx = -dx;
+            }
+            if (yp > 450) {
+                dy = -dy;
+            }
+            if (yp < 30) {
+                dy = -dy;
+            }
+        }, 25);
+    </script>
+</head>
+
+<body>
+    <div id="imag" style="position:absolute; top:150; left:0;">
+        <img src="html.png" width="300px">
+    </div>
+
+</body>
+
+</html>

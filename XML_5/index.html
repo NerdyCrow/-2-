@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>XML</title>
+</head>
+
+<body>
+    <input type="file" onchange="readFile(this)">
+    <form action="" name="form">
+        <input type='text' name='lastname' autocomplete="off" placeholder="Фамилия" />
+        <input type="button" value="Поиск" onclick="Write()" />
+    </form>
+
+    <script>
+
+
+        var info;
+        var secondname;
+        function readFile(object) {
+            var file = object.files[0];
+            var reader = new FileReader();
+            reader.onload = function () {
+                let xmlText = reader.result;
+
+                let xmlDoc = new window.DOMParser().parseFromString(xmlText, "text/xml");
+                info = xmlDoc.getElementsByTagName('info');
+                secondname = xmlDoc.getElementsByTagName('secondname');
+
+
+
+            }
+            reader.readAsText(file);
+        }
+        function Write() {
+            var Name1 = document.form.lastname.value;
+            let out;
+            let flag = true;
+            for (let i = 0; i < info.length; i++) {
+                out = secondname[i].innerHTML;
+                if (Name1 == out) {
+                    document.write(info[i].innerHTML);
+                }
+            }
+
+
+
+        }
+    </script>
+</body>
+
+</html>

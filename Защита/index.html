@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="car" style="position: absolute;" onclick="gh()">
+        <img src="1.jpg" width="50px">
+        <p>Hello world</p>
+    </div>
+    <script>
+        let k = document.getElementById('car');
+        k.onmousedown = function(e) {
+            k.style.top = e.pageY - k.offsetHeight / 2 + 'px';
+            k.style.left = e.pageX - k.offsetWidth / 2 + 'px';
+            move(e);
+
+
+            function move(e) {
+                k.style.top = e.pageY - k.offsetHeight / 2 + 'px';
+                k.style.left = e.pageX - k.offsetWidth / 2 + 'px';
+            }
+            document.onmousemove = function(e) {
+                move(e);
+            }
+
+        }
+    </script>
+</body>
+
+</html>

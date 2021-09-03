@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        mark {
+            color: slateblue;
+            font-size: 30px;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+
+        body {
+            background-color: darkkhaki;
+            font-size: 15px;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        .nav {
+            display: block;
+            width: 200px;
+            height: 150px;
+            text-align: center;
+
+
+        }
+
+        input {
+            border-radius: 10px;
+            background: antiquewhite;
+        }
+    </style>
+    <script>
+
+        pp2 = document.getElementById('pp1');
+        function getCoordinates() { navigator.geolocation.getCurrentPosition(showCoordinates); }
+        function showCoordinates(position) { pp1.innerHTML = "Широта:" + position.coords.latitude + "<br/>" + "Долгота:" + position.coords.longitude; }
+    </script>
+</head>
+
+<body>
+    <h2>Я,<mark>Слемнёв Виктор Николаевич</mark>, изучаю HTML5</h2>
+    <div>
+        <div><video src="-и-медведь-🐘-чай-со-слоном-🍲-новая-серия-🔥-про-индию-🌟-машины-песенки-серия-13.mp4"
+                controls="controls" width="400px" height="300px"></video>
+        </div>
+        <div style="margin-left: 50px; margin-top: 130px;"><audio src="Garik_Krichevskijj_-_Mojj_nomer_245_44839133.mp3"
+                width="400px" height="300px" controls="controls"></audio></div>
+    </div>
+    <div class="nav"><input type="button" value=" Координаты" onclick="getCoordinates()" />
+        <p id="pp1">
+            <>
+        </p>
+    </div>
+</body>
+
+</html>

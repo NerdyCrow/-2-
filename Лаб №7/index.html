@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       
+        textarea{
+            border: 2px solid black;
+            border-radius: 5px;
+        }
+        fieldset{
+            border: 7px solid black;
+            border-radius: 7px;
+            padding-left: 30px;
+        }
+        textarea{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <form name="form">
+        <fieldset>        
+        <textarea name="holder" placeholder="Многострочный текст"></textarea></br>
+        <b>Имя:</b> <br /><input type='text' name='firstname' autocomplete="off" placeholder="Имя" /><br />
+        <b>Фамилия:</b><br /> <input type='text' name='lastname' autocomplete="off" placeholder="Фамилия" /><br /></br>
+        <b>Специальность:</b>
+        <select name="spec">
+            <option>ИСит</option>
+            <option>ПОИТ</option>
+            <option>ПОИБМС</option>
+            <option>ДЭВИ</option>
+        </select></br></br>
+        <b>Курс: </b></br>
+        <input type='radio' name='s' value='1' /> 1
+        <input type='radio' name='s' value='2' /> 2
+        <input type="radio" name="s" value="3" />3
+        <input type="radio" name="s" value="4" />4</br>
+        
+        <b>Предметы:</b></br>
+        <input type='checkbox' name='space' value='ОИТ' />ОИТ
+        <input type='checkbox' name='space' value='ОАП' />ОАП
+        <input type='checkbox' name='space' value='История' />История
+        <input type='checkbox' name='space' value='Физика' />Физика
+        <input type='checkbox' name='space' value='Математика' />Математика</br></br>
+        <input type="submit" value="submit"/>
+        <input type="reset" value="reset"></br></br>
+        <input type="button" value="Напечатать" onclick="Write()"/>
+        <input type="button" value="Напечатать" onclick="Task2()"/>
+    </fieldset>
+        </form>
+        
+
+        
+    <script src="script.js"></script>
+</body>
+</html>

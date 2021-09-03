@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="//apps.bdimg.com/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="//apps.bdimg.com/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+    <style>
+        #pic2 {
+            position: relative;
+            cursor: pointer;
+            top: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <div><img src="html.png" id="pic2" alt="" width="20%"></div>
+    <script>
+        $('#pic2').click(function() {
+            $(this).animate({
+                "left": "400px",
+                "top": "0px"
+            }, 800);
+            $(this).animate({
+                "left": "800px",
+                "top": "200px"
+            }, 800);
+            $(this).animate({
+                "left": "400px",
+                "top": "400px"
+            }, 800);
+            $(this).animate({
+                "left": "0px",
+                "top": "200px"
+            }, 800);
+        })
+    </script>
+</body>
+
+</html>

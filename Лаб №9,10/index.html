@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <head>
+        <style>
+            h3 {
+                text-align: center;
+            }
+            
+            #t2 {
+                position: relative;
+                cursor: crosshair;
+            }
+            
+            form {
+                border: 3px solid black;
+                border-radius: 5px;
+                width: 500px;
+                text-align: center;
+            }
+            
+            #nav {
+                display: flex;
+            }
+            
+            .menu-item {
+                border-radius: 5px;
+                padding: 5px;
+                border: 2px soild black;
+                background: rgb(131, 245, 154);
+                margin-bottom: 10px;
+                display: inline-block;
+                position: relative;
+                cursor: pointer;
+            }
+            
+            .menu-item .submenu {
+                margin-top: 5px;
+                border-radius: 5px;
+                height: 40px;
+                text-align: center;
+                background: rgb(255, 166, 166);
+                position: absolute;
+                cursor: pointer;
+            }
+            
+            #t3 {
+                margin: 0px;
+            }
+            
+            #t3 a {
+                text-decoration: none;
+                margin: 5px;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <h3>Задание 1</h3>
+        <div id="smoke"><img src="smoke.png" style=" width: 300px;"></div>
+        <div id="text">
+            <h4>Hello world</h4>
+        </div>
+        <br />
+        <h3>Задание 2</h3>
+        <div><img id="t2" src="html.png" onclick="fun3()" width="300px"></div>
+        <h3>Задание 3</h3><br/>
+        <div id="t3">
+            <a href="index2.html" style="font-size: 20px;">Задание 3</a>
+        </div>
+
+        <br />
+        <h3>Задание 4 </h3>
+
+        <form action="">
+            <select id="col">
+            <option value="1">Красный</option>
+            <option value="2">Зеленый</option>
+            <option value="3">Синий</option>
+            <option value="4">Розовый</option>
+        </select>
+            <br />
+            <input type="button" onclick="test()" value="свой график" />
+            </br>
+            <input type="radio" value="1" id="1" name="graphik" />y=x^2
+            <input type="radio" value="2" id="2" name="graphik" />y=x^3
+            <input type="radio" value="3" id="3" name="graphik" />y=sin(x)
+            <input type="radio" value="4" id="4" name="graphik" />y=cos(x)
+            <input type="radio" value="5" id="5" name="graphik" />Свой график<br />
+            <input type="button" value="График" onclick="fun4()" />
+        </form>
+        <h3>Task 6</h3>
+        <div id="nav">
+            <div class="menu-item">
+                Меню 1
+                <div class="submenu">
+                    Подменю
+                </div>
+            </div>
+            <div class="menu-item">
+                Меню 2
+                <div class="submenu">
+                    Подменю
+                </div>
+            </div>
+            <div class="menu-item">
+                Меню 3
+                <div class="submenu">
+                    Подменю
+                </div>
+            </div>
+        </div>
+
+
+    </body>
+    <script src="script.js">
+    </script>
+
+</html>

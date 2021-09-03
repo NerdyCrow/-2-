@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LocalDebuggerCommandArguments>LP_Lab13.exe -in:E:\Учёба\ЯП\LP_Lab13\LP_Lab13\input.txt -log:E:\Учёба\ЯП\LP_Lab13\LP_Lab13\log.txt -out:E:\Учёба\ЯП\LP_Lab13\LP_Lab13\output.txt</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+</Project>

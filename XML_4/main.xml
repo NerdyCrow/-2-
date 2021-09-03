@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="4.xsl"?>
+<document>
+    <list>
+        <person>
+            <name>Валерий</name>
+            <surname>Хруст</surname>
+            <av>7</av>
+            <year>2002</year>
+        </person>
+        <person>
+            <name>Иван</name>
+            <surname>Иванов</surname>
+            <av>6</av>
+            <year>2001</year>
+        </person>
+        <person>
+            <name>Виктор</name>
+            <surname>Слемнев</surname>
+            <av>5</av>
+            <year>1999</year>
+        </person>
+        <person>
+            <name>Даниил</name>
+            <surname>Анкип</surname>
+            <av>4</av>
+            <year>2000</year>
+        </person>
+    </list>
+</document>

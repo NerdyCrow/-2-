@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2020 (64-Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="210mm" height="297mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 21000 29700"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:#2B2A29;stroke-width:20;stroke-miterlimit:22.9256}
+    .fil1 {fill:none}
+    .fil0 {fill:#FEFEFE}
+   ]]>
+  </style>
+    <clipPath id="id0">
+     <path d="M3408.47 5097.05l12166.36 0 0 12166.36 -12166.36 0 0 -12166.36z"/>
+    </clipPath>
+   <clipPath id="id1">
+    <path d="M10906.9 10227.16c2578.82,0 4669.37,2090.55 4669.37,4669.37 0,2578.82 -2090.55,4669.37 -4669.37,4669.37 -2578.82,0 -4669.37,-2090.55 -4669.37,-4669.37 0,-2578.82 2090.55,-4669.37 4669.37,-4669.37z"/>
+   </clipPath>
+     <clipPath id="id2">
+      <path d="M15575.75 14855.26c0.25,32.34 0.25,50.2 0,82.54 -7.35,847.48 -240.46,1640.97 -642.09,2323.49 -4023.74,1430.97 -4023.74,1430.97 -8052.11,2.38 -409.07,-694.12 -644.02,-1503.14 -644.02,-2367.14 0,-2578.82 2090.55,-4669.37 4669.37,-4669.37 2565.02,0 4646.64,2068.33 4668.85,4628.1z"/>
+     </clipPath>
+     <clipPath id="id3">
+      <path d="M10906.9 10227.16c2578.82,0 4669.37,2090.55 4669.37,4669.37 0,2578.82 -2090.55,4669.37 -4669.37,4669.37 -2578.82,0 -4669.37,-2090.55 -4669.37,-4669.37 0,-2578.82 2090.55,-4669.37 4669.37,-4669.37z"/>
+     </clipPath>
+ </defs>
+ <g id="Слой_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_1652468536608">
+   <g style="clip-path:url(#id0)">
+    <image x="3408.47" y="5097.05" width="12166.36" height="12166.36" xlink:href="third_Images\third_ImgID1.png"/>
+   </g>
+  </g>
+  <g style="clip-path:url(#id1)">
+   <polygon class="fil0" points="3697.53,7687.16 18116.27,7687.16 18116.27,22105.9 3697.53,22105.9 "/>
+   <g id="Слой_x0020_1_0">
+    <metadata id="CorelCorpID_1Corel-Layer"/>
+    <g id="_1652468536608">
+    </g>
+    <g style="clip-path:url(#id2)">
+     <image x="3411.56" y="5097.05" width="12168.72" height="13237.77" xlink:href="third_Images\third_ImgID2.png"/>
+    </g>
+    <g style="clip-path:url(#id3)">
+    </g>
+   </g>
+  </g>
+  <path class="fil1 str0" d="M10906.9 10227.16c2578.82,0 4669.37,2090.55 4669.37,4669.37 0,2578.82 -2090.55,4669.37 -4669.37,4669.37 -2578.82,0 -4669.37,-2090.55 -4669.37,-4669.37 0,-2578.82 2090.55,-4669.37 4669.37,-4669.37z"/>
+ </g>
+</svg>

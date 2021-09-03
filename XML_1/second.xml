@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="style2.css"?>
+<MUSIC>
+    <JANR>
+        <NAME>ROCK</NAME>
+        <POINTS>Музыка</POINTS>
+        <COL>РОССИЯ</COL>
+    </JANR>
+    <JANR>
+        <NAME>POP</NAME>
+        <POINTS>Музыка</POINTS>
+        <COL>Беларусь</COL>
+
+    </JANR>
+    <JANR>
+        <NAME>RAP</NAME>
+        <POINTS>Музыка</POINTS>
+        <COL>США</COL>
+
+    </JANR>
+</MUSIC>

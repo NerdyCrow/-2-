@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2020 (64-Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="210mm" height="297mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 21000 29700"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:#2B2A29;stroke-width:20;stroke-miterlimit:22.9256}
+    .fil0 {fill:#FFED00}
+    .fil1 {fill:#E31E24}
+   ]]>
+  </style>
+ </defs>
+ <g id="Слой_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <circle class="fil0 str0" cx="8376.7" cy="13930.46" r="1357.11"/>
+  <ellipse class="fil1 str0" transform="matrix(0.00537583 -0.999986 0.999986 0.00537583 8388.2 10434.2)" rx="2139.2" ry="506.27"/>
+  <ellipse class="fil1 str0" cx="11872.95" cy="13999.46" rx="2139.2" ry="506.27"/>
+  <ellipse class="fil1 str0" transform="matrix(0.707107 -0.707107 0.707107 0.707107 11026.1 11546)" rx="2139.2" ry="506.27"/>
+  <ellipse class="fil1 str0" transform="matrix(0.707107 -0.707107 0.707107 0.707107 5866.01 16387.3)" rx="2139.2" ry="506.27"/>
+  <ellipse class="fil1 str0" transform="matrix(0.707107 0.707107 -0.707107 0.707107 10859.5 16406.2)" rx="2139.2" ry="506.27"/>
+  <ellipse class="fil1 str0" transform="matrix(0.707107 0.707107 -0.707107 0.707107 5797.14 11486.6)" rx="2139.2" ry="506.27"/>
+  <ellipse class="fil1 str0" cx="4846.24" cy="14064.91" rx="2139.2" ry="506.27"/>
+  <ellipse class="fil1 str0" transform="matrix(-7.9675E-14 -1 1 -7.9675E-14 8257.77 17358)" rx="2139.2" ry="506.27"/>
+ </g>
+</svg>

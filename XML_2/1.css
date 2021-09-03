@@ -1,0 +1,34 @@
+SPECIALIZATION {
+    display: block;
+    text-align: center;
+    margin: 30px 40px 30px 40px;
+    margin-top: 20pt;
+    border-style: solid;
+    border-color: blue;
+    font-size: 25pt
+}
+
+NAME {
+    text-align: center
+}
+
+POINTS {
+    display: block;
+    text-align: center;
+    border-top: solid;
+    border-color: blue
+}
+
+COL {
+    display: block;
+    text-align: center;
+    border-top: solid;
+    border-color: blue
+}
+
+TOWN {
+    display: block;
+    text-align: center;
+    border-top: solid;
+    border-color: blue
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+<FACULTY>
+    <SPECIALIZATION>
+        <NAME>ПГУ</NAME>
+        <POINTS>285 баллов</POINTS>
+        <COL>План набора: 18 человек</COL>
+        <TOWN>Полоцк</TOWN>
+    </SPECIALIZATION>
+    <SPECIALIZATION>
+        <NAME>БГТУ</NAME>
+        <POINTS>335 баллов</POINTS>
+        <COL>План набора: 32 человек</COL>
+        <TOWN>Минск</TOWN>
+    </SPECIALIZATION>
+    <SPECIALIZATION>
+        <NAME>БГУиР</NAME>
+        <POINTS>352 баллов</POINTS>
+        <COL>План набора: 28 человек</COL>
+        <TOWN>Минск</TOWN>
+    </SPECIALIZATION>
+</FACULTY>
